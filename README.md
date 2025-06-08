@@ -1,12 +1,92 @@
-# React + Vite
+# ENREACH SOLUTION - Digital Forensics & Cyber Investigation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img src="https://github.com/user-attachments/assets/20998b7e-666a-452d-be1e-6f30c1b68d66" alt="logo" width="200" height="200">
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A professional website for ENREACH SOLUTION, specializing in digital forensics and cyber fraud investigation services.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔒 Comprehensive Digital Forensics Services
+- 💼 Professional Team Portfolio
+- 📱 Responsive Design
+- 🍔 Mobile-friendly Navigation
+- 🎨 Modern UI with Tailwind CSS
+
+## Services Offered
+
+- Audio/Video Analysis
+- Cloud Forensics
+- Computer/MAC Forensics
+- Cyber Fraud Investigation
+- Database Forensics
+- Digital Forensics
+- Disk Forensics
+- Email Forensics & Fraud Investigation
+- Malware Analysis
+- Memory Forensics
+- Mobile Device Forensics
+- Network & Wireless Forensics
+- Social Media Analysis
+
+## Features to be added
+- 📱 Client Portal
+- 📊 Case Management Dashboard
+- 💬 Live Chat Support
+- 📊 Case Progress Tracking
+- 📅 Appointment Scheduling
+- 📧 Automated Email Notifications
+- 💳 Payment Integration
+- 📊 Analytics Dashboard
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Vite
+- React Router DOM
+
+## Getting Started
+
+1. Clone the repository:
+```sh
+git clone https://github.com/vishantrathi/CYBER.git
+```
+
+2. Install dependencies:
+```sh
+npm install
+```
+
+3. Start development server:
+```sh
+npm run dev
+```
+
+4. Build for production:
+```sh
+npm run build
+```
+
+## Project Structure
+
+```
+├── src/
+│   ├── assets/
+│   │   ├── logo.png
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Index.jsx
+│   │   ├── About.jsx
+│   │   └── Login.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── public/
+└── ...config files
+```
+
+
+
+## License
+
+© 2025 ENREACH SOLUTION. All Rights Reserved.

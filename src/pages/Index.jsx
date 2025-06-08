@@ -100,6 +100,7 @@ const Index = () => {
               <li><a href="#why-choose-us">Why Choose Us</a></li>
               <li><a href="#team">Our Team</a></li>
               <li><a href="#contact">Contact</a></li>
+              <li><a href="www.example.com">Article</a></li>
               {/* <li><a href="/login">Admin LogIn</a></li> */}
             </ul>
           </nav>
@@ -128,19 +129,10 @@ const Index = () => {
           <div className="about-card" style={{ flex: "2 1 400px", minWidth: 0 }}>
             {/* <h2>About Us</h2> */}
             <p>
-              <b>ENREACH SOLUTION</b> provides expert digital forensics and fraud investigation services.
-              Our certified team uses advanced technology to uncover evidence in:
-            </p>
-            <ul style={{ margin: "16px 0 16px 24px" }}>
-              <li>Cybercrime</li>
-              <li>Intellectual property theft</li>
-              <li>Financial fraud cases</li>
-              <li>And Many More</li>
-              
-            </ul>
-            <p>
-              We deliver reliable, discreet, and timely results, ensuring accuracy and professionalism for every client.
-            </p>
+  At our cyber forensics firm, we specialize in investigating complex digital crimes such as <mark>cybercrime</mark>, <mark>intellectual property theft</mark>, and <mark>financial fraud</mark>. Our team of certified experts utilizes cutting-edge tools and methodologies to uncover hidden evidence, trace digital footprints, and provide court-admissible reports. We also handle cases involving <mark>data breaches</mark>, <mark>malware analysis</mark>, <mark>insider threats</mark>, and <mark>digital espionage</mark>. Whether working with corporations, law enforcement, or legal professionals, we deliver <mark>reliable</mark>, <mark>discreet</mark>, and <mark>timely</mark> results, ensuring <mark>accuracy</mark>, <mark>integrity</mark>, and <mark>professionalism</mark> in every investigation. Trust us to safeguard your digital interests and uncover the truth behind any cyber incident. 
+  <mark>Client confidentiality</mark> is our top priority, and we maintain the highest standards of data security throughout the process. With a proven track record of successful investigations, we are your trusted partner in navigating today’s complex digital landscape.
+</p>
+
           </div>
         </div>
       </section>
@@ -181,6 +173,7 @@ const Index = () => {
 
       <section id="team" className="team-section">
         <h2>Our Team</h2>
+        <br />
         <div className="team-grid">
           <div className="team-card">
             <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team Member" className="team-photo" />

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import About from "./pages/About.jsx";
+import About from "./pages/about.jsx";
 import Login from "./pages/Login";
 
 function App() {

@@ -100,7 +100,7 @@ const Index = () => {
               <li><a href="#why-choose-us">Why Choose Us</a></li>
               <li><a href="#team">Our Team</a></li>
               <li><a href="#contact">Contact</a></li>
-              <li><a href="www.example.com">Article</a></li>
+              <li><a href="www.example.com">Courses</a></li>
               {/* <li><a href="/login">Admin LogIn</a></li> */}
             </ul>
           </nav>
@@ -228,7 +228,7 @@ const Index = () => {
             <h3>Contact Info</h3>
             <ul>
               <li>📍 Astralis Supernova, Noida</li>
-              <li>📞 +91 8218848146</li>
+              <li>📞 +91 82xxxxx146</li>
               <li>✉️ contact.enreachsolution@gmail.com</li>
             </ul>
           </div>

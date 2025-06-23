@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import logo from "../assets/logo.png";
-// import cyberVideo from "../assets/854322-hd_1280_720_25fps.mp4";
+import LetterGlitch from "../components/LetterGlitch";
+
+
 
 const services = [
   {
@@ -106,16 +108,45 @@ const Index = () => {
           </nav>
         </div>
       </header>
-        // Development underway, uncomment the section when ready
-<section className="hero">
-  <div className="container hero-flex hero-overlay">
-    <div className="hero-content">
+<section className="hero" style={{ position: 'relative', overflow: 'hidden' }}>
+  {/* Glitch background */}
+  <div style={{
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    width: '100%',
+    height: '100%',
+    zIndex: 0
+  }}>
+    <LetterGlitch
+      glitchSpeed={50}
+      centerVignette={true}
+      outerVignette={false}
+      smooth={true}
+    />
+  </div>
+
+  {/* Hero Content */}
+  <div className="container hero-flex hero-overlay" style={{ position: 'relative', zIndex: 2 }}>
+     <div className="hero-content" style={{
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    padding: '30px',
+    borderRadius: '12px',
+    color: '#ffffff',
+    textShadow: '1px 1px 4px rgba(0,0,0,0.8)'
+  }}>
       <h2>Uncover the Truth with Expert Digital Forensics</h2>
-      <p>We specialize in digital forensics and cyber fraud investigation. Our team uses cutting-edge technology and innovative methods to uncover the truth in complex cases.</p>
+      <p>
+        We specialize in digital forensics and cyber fraud investigation. Our
+        team uses cutting-edge technology and innovative methods to uncover the
+        truth in complex cases.
+      </p>
       <a href="#contact" className="btn">Free Consultation</a>
     </div>
   </div>
 </section>
+
+
 
       <section id="about" className="about">
         <div className="container about-flex" style={{ display: "flex", alignItems: "center", gap: "40px", flexWrap: "wrap" }}>

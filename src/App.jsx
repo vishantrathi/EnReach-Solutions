@@ -1,20 +1,17 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Index from "./pages/Index";
-import About from "./pages/About";
+import About from "./pages/About"; 
+// import Login from "./pages/Login";
 import Articles from "./pages/Articles";
 import Article from "./pages/Article";
-import Login from "./pages/Login";
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
-        <Route path="/articles" element={<Articles />} />
+         <Route path="/articles" element={<Articles />} />
         <Route path="/article/:id" element={<Article />} />
-        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

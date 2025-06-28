@@ -1,0 +1,84 @@
+.glitch-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -9999; /* 🔥 Push behind everything */
+  pointer-events: none; /* 👈 So it doesn’t block clicks */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black; /* Optional background */
+}
+
+.glitch {
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  animation: glitch 1s infinite;
+  text-transform: uppercase;
+}
+
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  color: white;
+  background: black;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
+.glitch::before {
+  animation: glitchTop 2s infinite linear alternate-reverse;
+  color: #f0f;
+}
+
+.glitch::after {
+  animation: glitchBottom 1.5s infinite linear alternate-reverse;
+  color: #0ff;
+}
+
+@keyframes glitchTop {
+  0% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(0, 0);
+  }
+  10% {
+    clip: rect(0, 900px, 40px, 0);
+    transform: translate(-5px, -5px);
+  }
+  20% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(5px, 0px);
+  }
+  100% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes glitchBottom {
+  0% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(0, 0);
+  }
+  10% {
+    clip: rect(60px, 900px, 90px, 0);
+    transform: translate(5px, 5px);
+  }
+  20% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(-5px, 0px);
+  }
+  100% {
+    clip: rect(0, 900px, 0, 0);
+    transform: translate(0, 0);
+  }
+}

@@ -171,25 +171,37 @@ const Index = () => {
         <div className="team-grid">
           {[
             {
-              name: "Varun Saini",
-              role: "CEO & Cyber Forensics Expert",
-              // img: "https://randomuser.me/api/portraits/men/32.jpg"
-            },
-            {
-              name: "Priya Sharma",
+              name: "Gaurav Kumar",
               role: "Cyber Fraud Investigator",
-              // img: "https://randomuser.me/api/portraits/women/44.jpg"
+              img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
             },
             {
-              name: "Amit Singh",
-              role: "Digital Forensics Analyst",
-              // img: "https://randomuser.me/api/portraits/men/65.jpg"
+              name: "Shubham Saini",
+              role: "Sr.Digital Forensic Examiner",
+              img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
             },
             {
-              name: "Neha Verma",
-              role: "Network Forensics Specialist",
-              // img: "https://randomuser.me/api/portraits/women/68.jpg"
+              name: "Varun Saini",
+              role: "Sr. Digital Forensic Examiner",
+              img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
+            },
+            {
+              name: "Piyush Rawat",
+              role: "Sr. Digital Forensic Examiner",
+                img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
+              },
+              {
+                name: "Suraj Singh",
+                role: "Digital Forensic Expert & Specialist in Hardware",
+              img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
+            },
+            {
+              name: "Shivansh Bansal",
+              role: "Digital Forensic Examiner & Software developer",
+              img: "https://curieoncology.com.sg/wp-content/uploads/21-214439_free-high-quality-person-icon-default-profile-picture.png"
             }
+
+          
           ].map(member => (
             <div className="team-card" key={member.name}>
               <img src={member.img} alt={member.name} className="team-photo" />
@@ -208,7 +220,7 @@ const Index = () => {
           <div style={{ display: "flex", alignItems: "center", gap: 16, justifyContent: "center", margin: "16px 0" }}>
             <a href="mailto:contact.enreachsolution@gmail.com" className="btn">Email Us</a>
             <span style={{ fontWeight: 700, color: "#555" }}>OR</span>
-            <a href="tel:+9182xxxxx146" className="btn">Call Us</a>
+            <a href="tel:+918433028713" className="btn">Call Us</a>
           </div>
         </div>
       </section>
@@ -224,7 +236,7 @@ const Index = () => {
             <h3>Contact Info</h3>
             <ul>
               <li>📍 Astralis Supernova, Noida</li>
-              <li>📞 +91 82xxxxx146</li>
+              <li>📞 +918433028713 </li>
               <li>✉️ contact.enreachsolution@gmail.com</li>
             </ul>
           </div>

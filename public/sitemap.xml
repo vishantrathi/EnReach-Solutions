@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset 
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+>
+  <url>
+    <loc>https://enreachsolution.com/</loc>
+    <lastmod>2025-06-29</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://enreachsolution.com/articles</loc>
+    <lastmod>2025-06-29</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <!-- Example Article Pages -->
+  <url>
+    <loc>https://enreachsolution.com/article/cybercrime-delhi</loc>
+    <lastmod>2025-06-29</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://enreachsolution.com/article/cloud-forensics</loc>
+    <lastmod>2025-06-29</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <!-- Add more article pages here -->
+</urlset>
+    <url>
+        <loc>https://enreachsolution.com/about</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/contact</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/privacy-policy</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.60</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/terms-of-service</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.60</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/sitemap.xml</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/robots.txt</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.50</priority>
+    </url>
+    <url>
+        <loc>https://enreachsolution.com/favicon.ico</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.50</priority>
+    </url>
+    <url>   
+        <loc>https://enreachsolution.com/assets/logo.png</loc>
+        <lastmod>2025-06-29</lastmod>
+        <priority>0.50</priority>       
+    </url>
+    

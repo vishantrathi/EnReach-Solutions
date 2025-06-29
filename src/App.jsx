@@ -1,5 +1,5 @@
 import Index from "./pages/Index";
-import About from "./pages/About"; 
+import About from "./pages/about"; 
 // import Login from "./pages/Login";
 import Articles from "./pages/Articles";
 import Article from "./pages/Article";

@@ -97,14 +97,12 @@ const Index = () => {
             />
           </div>
           <div className="about-card" style={{ flex: "2 1 400px", minWidth: 0 }}>
-            <p>
-              At our cyber forensics firm, we specialize in investigating complex digital crimes such as <mark>cybercrime</mark>, <mark>intellectual property theft</mark>, and <mark>financial fraud</mark>. Our experienced team leverages advanced tools and methodologies to deliver reliable results for clients across industries.
-            </p>
+            <p><mark>cybercrime</mark>, <mark>intellectual property theft</mark>, and At our cyber forensics firm, we specialize in investigating complex digital crimes such as <mark>financial fraud</mark>. Our team of certified experts utilizes cutting-edge tools and methodologies to uncover hidden evidence, trace digital footprints, and provide court-admissible reports. We also handle cases involving <mark>data breaches</mark>, <mark>malware analysis</mark>, <mark>insider threats</mark>, and <mark>digital espionage</mark>. Whether working with corporations, law enforcement, or legal professionals, we deliver <mark>reliable</mark>, <mark>discreet</mark>, and <mark>timely</mark> results, ensuring <mark>accuracy</mark>, <mark>integrity</mark>, and <mark>professionalism</mark> in every investigation. Trust us to safeguard your digital interests and uncover the truth behind any cyber incident.<mark>Client confidentiality</mark> is our top priority, and we maintain the highest standards of data security throughout the process. With a proven track record of successful investigations, we are your trusted partner in navigating today’s complex digital landscape.</p>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Services S</ul>ection */}
       <section id="services" className="services">
         <div className="container">
           <h2>Our Services</h2>

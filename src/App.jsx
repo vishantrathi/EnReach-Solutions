@@ -1,10 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
 import Index from "./pages/Index";
-import About from "./pages/About";
-import Articles from  "./pages/Articles";
-import Article  from  "./pages/Article";
-
+import About from "./pages/About"; 
+// import Login from "./pages/Login";
+import Articles from "./pages/Articles";
+import Article from "./pages/Article";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <Router>

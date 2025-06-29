@@ -171,24 +171,24 @@ const Index = () => {
         <div className="team-grid">
           {[
             {
-              name: "Rajesh Kumar",
-              role: "Sr. Forensic Examiner",
-              img: "https://randomuser.me/api/portraits/men/32.jpg"
+              name: "Varun Saini",
+              role: "CEO & Cyber Forensics Expert",
+              // img: "https://randomuser.me/api/portraits/men/32.jpg"
             },
             {
               name: "Priya Sharma",
               role: "Cyber Fraud Investigator",
-              img: "https://randomuser.me/api/portraits/women/44.jpg"
+              // img: "https://randomuser.me/api/portraits/women/44.jpg"
             },
             {
               name: "Amit Singh",
               role: "Digital Forensics Analyst",
-              img: "https://randomuser.me/api/portraits/men/65.jpg"
+              // img: "https://randomuser.me/api/portraits/men/65.jpg"
             },
             {
               name: "Neha Verma",
               role: "Network Forensics Specialist",
-              img: "https://randomuser.me/api/portraits/women/68.jpg"
+              // img: "https://randomuser.me/api/portraits/women/68.jpg"
             }
           ].map(member => (
             <div className="team-card" key={member.name}>
